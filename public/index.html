@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body class="bg-gray-200">
+    <div class="bg-gray-800 text-white h-16 flex">
+        <h1 class="w-1/2 px-6 font-semibold text-2xl">Bootstrap<span class="text-gray-300 font-bold">Dashboard</span></h1>
+        <div class="w-1/2 text-right px-16 py-5">
+            <i class="fas fa-search px-3"></i>
+            <!--<div class="rounded-full  h-6  w-6 bg-yellow-500 absolute right-0 top-0 text-center"><label class="text-sm">10</label></div>-->
+            <i class="far fa-bell px-3"></i>
+            <i class="far fa-envelope px-3"></i>
+            <label class="px-3">Logout</label>
+            <i class="fas fa-sign-out-alt px-0"></i>
+        </div>
+    </div>
+  <div class="flex">
+    <nav class="bg-white w-1/6 shadow h-screen">
+        <div class="flex-1 px-5 py-5">
+            <img  class="h-16 rounded-full float-left" src="./img/person.jpg" alt="Perfil photo">
+            <label class="px-5 font-bold">Mark Stephen</label>
+            <br>
+            <span class="px-5">Web Designer</span>
+        </div>
+        <br>
+        <p class="px-5 py-3">MAIN</p>
+        <ul>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-home px-2 text-gray-700"></i>Home</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-chevron-circle-down px-2 text-gray-700"></i>Dropdown</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-th px-2 text-gray-700"></i>Tables</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="far fa-chart-bar px-2 text-gray-700"></i>Charts</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fab fa-wpforms px-2 text-gray-700"></i>Forms</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-portrait px-2 text-gray-700"></i>Login Page</a>
+            </li>
+        </ul>
+        <p class="px-5 py-3">EXTRAS</p>
+        <ul>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-clone px-2 text-gray-700"></i>Demo</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="fas fa-tv px-2 text-gray-700"></i>Demo</a>
+            </li>
+            <li class="rounded hover:bg-gray-400">
+                <a class="text-gray-900 flex items-center py-3 px-3" href="#"> <i class="far fa-image px-2 text-gray-700"></i>Demo</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="flex-1 shadow ">
+        <div class="block bg-white h-12 shadow">
+            <h1 class="px-6 py-2 font-bold text-xl">Dashboard</h1>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="w-full h-full p-10">
+                <div class="bg-white border shadow p-6">
+                    <div class="flex items-center">
+                        <div class="rounded-full p-3 bg-purple-600">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div class="flex-1 text-center">
+                            <h5 class="text-gray-700 flex-1">New Clients</h5>
+                            <h3 class="text-gray-900 font-bold text-3xl flex-1">25</h3>
+                            <div class="shadow bg-gray-300 rounded w-1/2">
+                                <div class="rounded bg-purple-600 text-xs leading-none py-1 text-center text-white" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="rounded-full p-3 bg-red-500">
+                            <i class="fas fa-server text-white"></i>
+                        </div>
+                        <div class="flex-1 text-center">
+                            <h5 class="text-gray-700">Work Ordes</h5>
+                            <h3 class="text-gray-900 font-bold text-3xl">70</h3>
+                            <div class="shadow bg-gray-300 rounded w-1/2">
+                                <div class="rounded bg-red-500 text-xs leading-none py-1 text-center text-white" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="rounded-full p-3 bg-green-400">
+                            <i class="far fa-address-book text-white"></i>
+                        </div>
+                        <div class="flex-1 text-center">
+                            <h5 class="text-gray-700">New Invoices</h5>
+                            <h3 class="text-gray-900 font-bold text-3xl">44</h3>
+                            <div class="shadow bg-gray-300 rounded w-1/2">
+                                <div class="rounded bg-green-400 text-xs leading-none py-1 text-center text-white" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="rounded-full p-3 bg-yellow-500">
+                            <i class="far fa-address-card text-white"></i>
+                        </div>
+                        <div class="flex-1 text-center">
+                            <h5 class="text-gray-700">Open Cases</h5>
+                            <h3 class="text-gray-900 font-bold text-3xl">25</h3>
+                            <div class="shadow bg-gray-300 rounded w-1/2">
+                                <div class="rounded bg-yellow-500 text-xs leading-none py-1 text-center text-white" style="width: 25%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 flex">
+                    <div class="w-1/3">
+                        <div class=" border shadow px-3 py-3 bg-white w-3/4 my-3">
+                            <div class="flex items-center">
+                                <div class="rounded-full p-3 bg-red-500">
+                                    <i class="fas fa-database text-white"></i>
+                                </div>
+                                <div class="flex-1 text-center ">
+                                    <h3 class="text-gray-900 font-bold text-3xl flex-1">234</h3>
+                                    <h5 class="text-gray-700 flex-1">APPLICATIONS</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" border shadow px-3 py-3 bg-white w-3/4 my-3">
+                            <div class="flex items-center">
+                                <div class="rounded-full p-3 bg-green-400">
+                                    <i class="far fa-calendar text-white"></i>
+                                </div>
+                                <div class="flex-1 text-center ">
+                                    <h3 class="text-gray-900 font-bold text-3xl flex-1">152</h3>
+                                    <h5 class="text-gray-700 flex-1">INTERVIEWS</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" border shadow px-3 py-3 bg-white w-3/4 my-3">
+                            <div class="flex items-center">
+                                <div class="rounded-full p-3 bg-yellow-500">
+                                    <i class="far fa-paper-plane text-white"></i>
+                                </div>
+                                <div class="flex-1 text-center ">
+                                    <h3 class="text-gray-900 font-bold text-3xl flex-1">147</h3>
+                                    <h5 class="text-gray-700 flex-1">FORWARDS</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class=" border shadow  bg-white  my-3 ">
+                            <div class="flex items-center">
+                               <img src="./img/grafica.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/3 ">
+                        <div class="border shadow px-3 py-3 bg-white w-3/4 float-right my-3">
+                            <div class="flex-1">
+                                <h3 class="text-indigo-600 font-bold text-3xl flex-1">95%</h3>
+                                <h5 class="text-gray-700 flex-1">CURRENT SERVER UPTIME</h5>
+                            </div>
+                            <div class="px-16">
+                                <img src="./img/bar.png" alt="BAR" class="w-32 h-32">
+                            </div>
+                        </div>
+                        <div class=" border shadow px-3 py-3 bg-white  w-3/4 float-right my-3">
+                            <div class="flex items-center">
+                                <div class="rounded-full p-3 bg-green-400">
+                                    <i class="fas fa-chart-line text-white"></i>
+                                </div>
+                                <div class="flex-1 text-center ">
+                                    <h3 class="text-gray-900 font-bold text-3xl flex-1">99.9%</h3>
+                                    <h5 class="text-gray-700 flex-1">SUCCESS RATE</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+
+                <div class="flex w-full  h-24 bg-white shadow">
+                    <div class="flex-1 px-4 py-4 w-1/3">
+                        <img src="./img/tupac.jpg" alt="All eyez on me" class="h-16 float-left">
+                        <label class="px-5 font-bold">Project Title</label>
+                        <br>
+                        <span class="px-5">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 px-4 py-10">
+                        <label class="text-right">Today at 4:20 AM</label>
+                    </div>
+                    <div class="w-1/3 px-4 py-10">
+                        <label class="float-left"> <i class="far fa-clock"></i>  12:00 PM</label>
+                        <label class="px-4 float-left"><i class="far fa-comment"></i> 20</label>
+                        <div class="shadow bg-gray-300 my-2 rounded w-1/2 float-left">
+                            <div class="rounded bg-red-500 text-xs leading-none py-1 text-center text-white" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/585708261c.js" crossorigin="anonymous"></script>
+</html>
